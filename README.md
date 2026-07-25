@@ -2,6 +2,7 @@
 <p align="center">
 <img src="Images/demo3.gif" width="700">
 </p>
+
 ## 概要
 
 Unityで制作したプロシージャル盆栽生成システムです。
@@ -11,15 +12,20 @@ Unityで制作したプロシージャル盆栽生成システムです。
 
 本作品ではメッシュ生成を一から実装し、
 Unity標準モデルを用いずに3Dモデルを構築しています。
-![bonsai](Images/bonsai1.png)
+1週間で１人で作り上げた作品です。
+<!-- ![bonsai](Images/bonsai1.png) -->
 
 ---
 
 ## 制作背景
 
-日本文化である盆栽をコンピュータグラフィックスで表現したいと考え、本作品を制作しました。
+日本の伝統文化である盆栽をコンピュータグラフィックスで表現したいと考え、本作品を制作しました。
 
-樹木は非常に複雑な形状を持つため、手作業ではなくアルゴリズムによって自然な形状をランダムに生成することを目標としています。
+樹木は非常に複雑な形状を持つため、手作業でモデリングするのではなく、アルゴリズムによって自然な形状を自動生成することを目標としています。
+
+ランダム性を取り入れることで、制作者自身も予測できない個性的な樹形が生まれます。その偶然性によって、一つひとつ異なる盆栽ならではの趣や美しさを表現できるのではないかと考えました。
+
+また、盆栽モデルは実行と同時に数秒で生成されるため、何度でも新しい作品を生成し、その中からお気に入りの一本を見つける楽しみがあります。
 
 ---
 
@@ -30,7 +36,7 @@ Unity標準モデルを用いずに3Dモデルを構築しています。
 - 円柱メッシュをパスに沿って生成
 - 樹皮の凹凸生成
 - DLA（Diffusion Limited Aggregation）を用いた枝生成アルゴリズム
-- 松葉メッシュの自動生成
+- 葉メッシュの自動生成
 - メッシュ法線・UVの生成
 - ランダム性を利用した自然形状の生成
 ---
@@ -50,11 +56,12 @@ Unity標準モデルを用いずに3Dモデルを構築しています。
 
 ## 工夫した点
 
+- 幹のパスを空間に配置した障害物を回避するように作成
 - パス方向から局所座標系を計算し、幹が自然に曲がるようにした
-- 樹皮表面にノイズを加え、凹凸を表現した
-- DLAによる枝生成で自然な枝分かれを再現した
-- 円柱と円錐を組み合わせた松葉メッシュを自動生成した
-- 毎回異なる盆栽が生成されるよう乱数を利用した
+- 樹皮表面にノイズを加え、凹凸を表現
+- 独自に改良したDLAによる枝生成で自然な枝分かれを再現
+- 円柱と円錐を組み合わせた松葉メッシュを自動生成
+- 毎回異なる盆栽が生成されるよう乱数を利用
 ---
 
 ## 今後の予定
@@ -79,26 +86,23 @@ GameScene
 ## 実行結果
 
 <p align="center">
-  <img src="Images/bonsai1.png" width="30%">
-  <img src="Images/bonsai2.png" width="30%">
-  <img src="Images/bonsai3.png" width="30%">
+  <img src="Images/bonsai1.png" width="45%">
+  <img src="Images/bonsai2.png" width="45%">
 </p>
 
 <p align="center">
-  <img src="Images/bonsai4.png" width="30%">
-  <img src="Images/bonsai5.png" width="30%">
-  <img src="Images/bonsai6.png" width="30%">
+  <img src="Images/bonsai4.png" width="45%">
+  <img src="Images/bonsai5.png" width="45%">
 </p>
-<!-- <p align="center">
-  <img src="images/bonsai4.png" width="30%">
-  <img src="images/bonsai3.png" width="30%">
-  <img src="images/bonsai6.png" width="30%">
-</p> -->
+<p align="center">
+  <img src="Images/bonsai3.png" width="45%">
+  <img src="Images/bonsai6.png" width="45%">
+</p>
 
 # デモ
 
 <p align="center">
-<img src="images/demo3.gif" width="700">
+<img src="Images/demo4.gif" width="700">
 </p>
 
 ---
