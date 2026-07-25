@@ -1,0 +1,27 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# macOS
+.DS_Store
+
+# Visual Studio
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
