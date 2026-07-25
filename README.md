@@ -1,6 +1,6 @@
 # Procedural Bonsai Generator（プロシージャル盆栽生成）
 <p align="center">
-<img src="Images/demo3.gif" width="700">
+<img src="Images/demo3.gif" width="600">
 </p>
 
 ## 概要
@@ -86,23 +86,27 @@ GameScene
 ## 実行結果
 
 <p align="center">
-  <img src="Images/bonsai1.png" width="45%">
-  <img src="Images/bonsai2.png" width="45%">
+  <img src="Images/bonsai1.png" width="40%">
+  <img src="Images/bonsai2.png" width="40%">
 </p>
 
 <p align="center">
-  <img src="Images/bonsai4.png" width="45%">
-  <img src="Images/bonsai5.png" width="45%">
+  <img src="Images/bonsai4.png" width="40%">
+  <img src="Images/bonsai5.png" width="40%">
 </p>
 <p align="center">
-  <img src="Images/bonsai3.png" width="45%">
-  <img src="Images/bonsai6.png" width="45%">
+  <img src="Images/bonsai3.png" width="40%">
+  <img src="Images/bonsai6.png" width="40%">
 </p>
 
 # デモ
 
 <p align="center">
-<img src="Images/demo4.gif" width="700">
+<img src="Images/demo5.gif" width="600">
+</p>
+
+<p align="center">
+<img src="Images/demo4.gif" width="600">
 </p>
 
 ---
