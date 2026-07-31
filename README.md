@@ -102,11 +102,11 @@ GameScene
 # デモ
 
 <p align="center">
-<img src="Images/demo5.gif" width="600">
+<img src="Images/demo10.gif" width="600">
 </p>
 
 <p align="center">
-<img src="Images/demo4.gif" width="600">
+<img src="Images/demo13.gif" width="600">
 </p>
 
 ---
